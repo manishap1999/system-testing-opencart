@@ -1,0 +1,14 @@
+{
+  "name": "member-d-tests",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Member D system tests: F10 Wishlist, F11 Product Comparison, F12 Checkout (OpenCart demo store)",
+  "scripts": {
+    "test": "node d-tests.mjs",
+    "test:headed": "node d-tests.mjs --headed"
+  },
+  "dependencies": {
+    "playwright": "^1.49.0"
+  }
+}
